@@ -1,0 +1,102 @@
+.custom {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 80vh;
+    background: rgba(255, 255, 255, 0.825);
+    position: absolute;
+    z-index: 1;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.custom div {
+    margin: 0px;
+}
+
+.custom input {
+    width: 20vw;
+    height: 5vh;
+    border-radius: 6px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.defaultCenter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerCar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.containerCar button {
+    margin: 5px;
+    margin-top: -5vh;
+    cursor: pointer;
+}
+
+.displayName {
+    margin: 5px;
+}
+
+.carchoose {
+    margin-top: -5vh;
+}
+
+.start {
+    margin: auto;
+    width: 10vw;
+    height: 5vh;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.containerButton {
+    margin-top: -5vh;
+}
+
+.start:hover {
+    width: 12vw;
+    height: 6vh;
+    background-color: #0b91ff;
+    color: rgb(255, 255, 255);
+}
+
+.containerTrack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50vh;
+}
+
+.containerCard {
+    display: flex;
+    border: 1px solid black;
+}
+
+
+.containerCard button {
+    border: none;
+    cursor: pointer;
+}

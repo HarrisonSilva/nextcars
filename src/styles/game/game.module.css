@@ -1,0 +1,133 @@
+.default {
+    position: relative;
+    z-index: 1;
+}
+
+.containerCars {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40vh;
+}
+
+.containerCars :nth-child(1) {
+    animation: speedCars 1s;
+    position: absolute;
+    margin-top: 28vh;
+    margin-left: 10vw;
+}
+
+.containerCars :nth-child(2) {
+    animation: speedCars 1s;
+    position: absolute;
+    margin-top: 35vh;
+}
+
+.name {
+    position: absolute;
+    background-color: #fff;
+    color: black;
+    width: fit-content;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    height: fit-content;
+}
+
+.containerInfo {
+    display: flex;
+}
+
+.menu {
+position: absolute;
+z-index: 2;
+margin-top: 8vh;
+margin-left: 0.3vw;
+text-decoration: none;
+color: #fff;
+background-color: black;
+border-radius: 5px;
+padding: 8px;
+font-weight: bold;
+}
+
+.menu:hover {
+    background-color: blue;
+    color: #fff;
+}
+
+.moneyContainer {
+    background-color: rgba(255, 255, 255);
+    width: fit-content;
+    height: fit-content;
+    margin-left: 50vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.update {
+    background-color: rgb(78, 128, 3);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.update:active {
+    padding: 6px;
+    background-color: red;
+}
+
+.startCars {
+    position: absolute;
+    margin-left: 45vw;
+    margin-top: 10vh;
+    width: 10vw;
+    height: 5vh;
+    font-weight: bold;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+.startCars:hover {
+    background-color: green;
+    color: #fff;
+}
+
+.startCars:active {
+    background-color: #fff;
+    color: black;
+}
+
+.result {
+    text-align: center;
+    margin-top: 2vh;
+    background-color: #fff;
+    width: fit-content;
+    margin-left: 35vw;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.points {
+    position: absolute;
+    z-index: 3;
+    margin-left: 20vw;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.containerPoints {
+    display: flex;
+    flex-direction: column;
+}

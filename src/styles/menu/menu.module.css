@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+.boxMenu {
+    margin: auto auto -60vh auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 12vh;
+    background-color: rgba(255, 255, 255, 0.900);
+    position: fixed;
+    border-radius: 20px;
+    z-index: 1;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.boxMenu a {
+    animation: bs 1s ease-in-out infinite backwards;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: Rubik Glitch;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+    font-size: 30px;
+    padding: 10px 10px;
+    background: none;
+    transition: box-shadow 0.1s;
+    color: #202020;
+
+}
+
+.boxMenu a:hover {
+background-color: #202020;
+color: aliceblue;
+}
+
+
+@keyframes bs {
+    from {
+        transform: scale(1.2)
+    }
+}
